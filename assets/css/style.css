@@ -1,0 +1,116 @@
+/*self explanatory*/
+header {
+  height: 32px;
+  padding:25px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  border-bottom: 2px solid;
+  border-bottom-color:#cccccc;
+  color: #4aaaa5;
+  background: #ffffff;
+}
+
+/*this is the part of my name*/
+strong {
+	padding:25px;
+	margin-left:50px;
+	color:white;
+	font-size:28px;
+	background:teal;
+}
+
+/*navigation bars*/
+#right{
+	margin-right:50px;
+	float: right;
+	color:blue;
+}
+
+li, a{
+	color:#777777;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#full{
+
+	height:600px;
+	width:1154px;
+	background-image: url("http://enjoycss.com/webshots/42u_0.png");
+  	background-color: #cccccc;
+
+}
+
+/*about me*/
+aside {
+	width: 650px;
+	height: 480px;
+	margin-top: 20px;
+	margin-left: 75px;
+	float:left;
+	background: #ffffff;
+	border: solid 1px #dddddd;
+	padding: 20px;
+
+}
+
+/*connect with me*/
+#aside2{
+	width: 270px;
+	height:220px;
+	background: #ffffff;
+	float:right;
+	border: solid 1px #dddddd;
+	margin-top:20px;
+	margin-right:50px;
+	padding: 15px;
+}
+
+h2{
+	padding-bottom:20px;
+	color: #4aaaa5;
+	font-size:28px;
+	border-bottom: 2px solid;
+  	border-bottom-color:#cccccc;	
+}
+
+h4{
+	font-family: arial, "Helvetica Neue", Helvetica, sans-serif;
+	color:#777777;
+	font-size:16px;
+	float:right;
+	line-height: 150%
+}
+
+h5{
+	padding-bottom:10px;
+	color:#4aaaa5;
+	font-size:26px;
+	text-align:center;
+}
+
+hr {
+	width:75%;
+	background-color:#d3d3d3;
+	height: 1px;
+	border: 0;
+}
+
+#icons {
+	text-align:center;
+}
+
+footer {
+	height:64px;
+	border-top: 4px solid;
+  	border-top-color:#4aaaa5;
+	background-color: #666666;
+	color:white;
+	text-align:center;
+}
+
+#mypic{
+	float:left;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+
