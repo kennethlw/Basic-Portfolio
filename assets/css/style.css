@@ -1,6 +1,6 @@
-/*self explanatory*/
+/*header at the top containing name and nav bar*/
 header {
-  height: 32px;
+  height: 30px;
   padding:25px;
   font-family: Georgia, Times, "Times New Roman", serif;
   border-bottom: 2px solid;
@@ -39,7 +39,7 @@ li, a {
 
 }
 
-/*about me*/
+/*about me container*/
 aside {
 	width: 650px;
 	height: 480px;
@@ -52,7 +52,7 @@ aside {
 
 }
 
-/*connect with me*/
+/*connect with me container*/
 #aside2{
 	width: 270px;
 	height:220px;
@@ -69,7 +69,7 @@ h2 {
 	font-size:28px;
 	border-bottom: 2px solid;
   	border-bottom-color:#cccccc;
-  	padding-bottom:0px;	
+  	padding-bottom:10px;	
 }
 
 h4 {
@@ -130,6 +130,7 @@ input[type=text] {
 
 }
 
+/*submit button*/
 input[type=submit] {
 	font: arial;
 	height: 48px;
@@ -139,6 +140,7 @@ input[type=submit] {
 	border-style:none;
 	background-color:#4aaaa5;
 	color:white;
+	padding-top:5px;
 	margin-top:0px;
 }
 
@@ -159,14 +161,29 @@ textarea {
 	position:relative;
 }
 
+.box1 {
+	left: 50px;
+	top: 25px;
+}
+
+.box2 {
+	left: 50px;
+	top: 50px;
+}
+
+.box3 {
+	left: 50px;
+	top: 75px;
+}
+
 .box4 {
-	left: 330px;
-	bottom: 410px;
+	left: 360px;
+	bottom: 335px;
 }
 
 .box5 {
-	left: 330px;
-	bottom: 410px;
+	left: 360px;
+	bottom: 310px;
 }
 
 .img1, .img2, .img3, .img4, .img5 {
