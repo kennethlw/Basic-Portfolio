@@ -15,26 +15,25 @@ strong {
 	margin-left:50px;
 	color:white;
 	font-size:28px;
-	background:teal;
+	background:#4aaaa5;
 }
 
 /*navigation bars*/
-#right{
+#right {
 	margin-right:50px;
 	float: right;
 	color:blue;
 }
 
-li, a{
+li, a {
 	color:#777777;
 	display: inline-block;
 	text-decoration: none;
 }
 
-#full{
 
+#full {
 	height:600px;
-	width:1154px;
 	background-image: url("http://enjoycss.com/webshots/42u_0.png");
   	background-color: #cccccc;
 
@@ -65,23 +64,23 @@ aside {
 	padding: 15px;
 }
 
-h2{
-	padding-bottom:20px;
+h2 {
 	color: #4aaaa5;
 	font-size:28px;
 	border-bottom: 2px solid;
-  	border-bottom-color:#cccccc;	
+  	border-bottom-color:#cccccc;
+  	padding-bottom:0px;	
 }
 
-h4{
+h4 {
 	font-family: arial, "Helvetica Neue", Helvetica, sans-serif;
 	color:#777777;
-	font-size:16px;
+	font-size:14px;
 	float:right;
-	line-height: 150%
+	line-height: 300%;
 }
 
-h5{
+h5 {
 	padding-bottom:10px;
 	color:#4aaaa5;
 	font-size:26px;
@@ -95,6 +94,7 @@ hr {
 	border: 0;
 }
 
+/*3 icons for the links to linkedIn, stackoverflow, and github*/
 #icons {
 	text-align:center;
 }
@@ -108,9 +108,75 @@ footer {
 	text-align:center;
 }
 
-#mypic{
+#mypic {
 	float:left;
 	padding-right:20px;
 	padding-bottom:20px;
 }
+
+#form {
+	float:left;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+/*begins the css for contact me page*/
+input[type=text] {
+    width: 100%;
+    padding: 6px 6px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    font:arial;
+
+}
+
+input[type=submit] {
+	font: arial;
+	height: 48px;
+	width: 128px;
+	font-size:20px;
+	text-align:center;
+	border-style:none;
+	background-color:#4aaaa5;
+	color:white;
+	margin-top:0px;
+}
+
+textarea {
+	box-sizing:border-box;
+	padding:6px 6px;
+	border: solid 1px lightgrey;
+}
+
+/*begins the css for portfolio page*/
+.box-set {
+	position:absolute;
+}
+
+.box {
+	width:250px;
+	height:120px;
+	position:relative;
+}
+
+.box4 {
+	left: 330px;
+	bottom: 410px;
+}
+
+.box5 {
+	left: 330px;
+	bottom: 410px;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+	height: 30px;
+	color:white;
+	text-align:center;
+	background:#4aaaa5;
+	z-index:2;
+	bottom: 40px;
+	position:relative;
+}
+
 
