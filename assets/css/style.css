@@ -31,12 +31,10 @@ li, a {
 	text-decoration: none;
 }
 
-
-#full {
-	height:600px;
-	background-image: url("../images/concrete-texture.png");
-  	background-color: #cccccc;
-
+/*******************************************/
+#full {	
+	height: 100%
+  	background-color: red;
 }
 
 /*about me container*/
@@ -67,8 +65,7 @@ aside {
 h2 {
 	color: #4aaaa5;
 	font-size:28px;
-	border-bottom: 2px solid;
-  	border-bottom-color:#cccccc;
+	border-bottom: 2px solid #cccccc;
   	padding-bottom:10px;	
 }
 
@@ -85,6 +82,7 @@ h5 {
 	color:#4aaaa5;
 	font-size:26px;
 	text-align:center;
+	border-bottom:2px solid #cccccc;
 }
 
 hr {
@@ -113,6 +111,7 @@ footer {
 	padding-right:20px;
 	padding-bottom:20px;
 }
+
 
 #form {
 	float:left;
@@ -193,4 +192,23 @@ textarea {
 	position:relative;
 }
 
+/*Let's try this thing called a sticky footer. test.html for testing purposes ;) */
+html, body{
+	height:100%;
+}
+
+.page-wrap{
+	min-height: 100%;
+	margin-bottom:-100px;
+	background-image: url("../images/concrete-texture.png");
+}
+
+.page-wrap:after{
+	content: "";
+	display: block;
+}
+
+.site-footer, .page-wrap:after{
+	height:100px;
+}
 
